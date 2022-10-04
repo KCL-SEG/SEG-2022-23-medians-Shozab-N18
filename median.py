@@ -23,4 +23,4 @@ while first_num < last_num:
 if first_num == last_num:
     print(str(numbers[first_num-1]))
 else:
-    print(str((numbers[first_num] + numbers[last_num]) / 2))
+    print(str((numbers[first_num-1] + numbers[last_num-1]) / 2))
