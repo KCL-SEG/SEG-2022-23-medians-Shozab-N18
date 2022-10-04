@@ -10,16 +10,16 @@ while True:
     else:
         break
         
-first_num = numbers[0]
-last_num = numbers[len(numbers) - 1]
+print(numbers)
+
+first_num = 1
+last_num = len(numbers)
 
 while first_num < last_num:
-    first_num = first_num +1
-    last_num = last_num +1
+    first_num = first_num + 1
+    last_num = last_num - 1
 
-if first_num == last_num:
-    print(str(first_num))
+if numbers[first_num] == numbers[last_num]:
+    print(str(numbers[first_num]))
 else:
-    print(str((first_num + last_num) / 2))
-
-print(numbers)
+    print(str((numbers[first_num] + numbers[last_num]) / 2))
