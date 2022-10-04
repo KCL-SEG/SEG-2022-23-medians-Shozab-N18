@@ -9,7 +9,8 @@ while True:
         print("Some input could not be converted to a number!")
     else:
         break
-        
+
+numbers.sort()
 print(numbers)
 
 first_num = 1
