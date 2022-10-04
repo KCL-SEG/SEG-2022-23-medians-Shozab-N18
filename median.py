@@ -19,7 +19,7 @@ while first_num < last_num:
     first_num = first_num + 1
     last_num = last_num - 1
 
-if numbers[first_num] == numbers[last_num]:
-    print(str(numbers[first_num]))
+if first_num == last_num:
+    print(str(numbers[first_num-1]))
 else:
     print(str((numbers[first_num] + numbers[last_num]) / 2))
